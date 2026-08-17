@@ -1,8 +1,8 @@
 
     .Header-1 {
-        font-size: 1500%;
-        margin-top: 5%;
-        margin-bottom: 1%;
+        font-size: 14vw;
+        margin-top: 20%;
+        margin-bottom: 3%;
         Line-height: 0.9;
         text-align: center;
     }
@@ -12,14 +12,14 @@
         justify-content: center;
         align-items: center;
         width: 90%;
-        height: 10%;
-        min-width: 100px;
-        min-height: 100px;
+        min-width: 0;
+        min-height: 80px;
+        height: auto;
+        font-size: 8vw;
+        border-width: 8px;
         margin: 10px auto;
-        font-size: 500%;
         border-color: rgb(200, 0, 0);
         border-style: solid;
-        border-width: 15px;
         color: white;
         background-color: black;
         font-family: "Stardos Stencil", system-ui;
@@ -44,15 +44,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
-        height: 3%;
-        min-width: 100px;
-        min-height: 100px;
+        width: 80%;
+        min-width: 0;
+        min-height: 70px;
+        height: auto;
+        font-size: 7vw;
+        border-width: 8px;
         margin: 10px auto;
-        font-size: 400%;
         border-color: rgb(200, 0, 0);
         border-style: solid;
-        border-width: 15px;
         color: white;
         background-color: black;
         font-family: "Stardos Stencil", system-ui;
@@ -100,11 +100,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100px;
-        min-width: 100px;
-        width: 110%;
-        height: 20%;
-        font-size: 1000%;
+        min-width: 0;
+        min-height: 80px;
+        width: 20%;
+        height: auto;
+        font-size: 15vw;
     }
 
     .Facebook i {
@@ -124,11 +124,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100px;
-        min-width: 100px;
-        width: 110%;
-        height: 20%;
-        font-size: 1000%;
+        min-width: 0;
+        min-height: 80px;
+        width: 20%;
+        height: auto;
+        font-size: 15vw;
     }
 
     .instagram i {
@@ -160,11 +160,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100px;
-        min-width: 100px;
-        width: 90%;
-        height: 20%;
-        font-size: 1000%;
+        min-width: 0;
+        min-height: 80px;
+        width: 20%;
+        height: auto;
+        font-size: 15vw;
     }
 
     .TikTok i {
@@ -187,11 +187,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100px;
-        min-width: 100px;
-        width: 90%;
-        height: 20%;
-        font-size: 1000%;
+        min-width: 0;
+        min-height: 80px;
+        width: 20%;
+        height: auto;
+        font-size: 15vw;
     }
 
     .X i {
@@ -211,11 +211,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100px;
-        min-width: 100px;
-        width: 90%;
-        height: 20%;
-        font-size: 1000%;
+        min-width: 0;
+        min-height: 80px;
+        width: 20%;
+        height: auto;
+        font-size: 15vw;
         
     }
 
@@ -244,11 +244,15 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        width: 100%;
     }
 
     .background {
         background-image: url("Images/Background.jpg");
-        background-position: center;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: repeat-y;
     }
 
     .Header-1 {
@@ -261,65 +265,24 @@
   font-family: "Stardos Stencil", system-ui;
   font-weight: 700;
   font-style: normal;
+  font-size: 10vw;
+  margin-top: 8%;
+  margin-bottom: 3%;
 }
 
 a {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
 
-    /* ORDER HERE */
-    .Header-1 {
-        font-size: 18vw;
-        margin-top: 20%;
-        margin-bottom: 3%;
-        line-height: 0.9;
-    }
 
-    /* SHOP NOW */
-    .Shop-Now {
-        width: 90%;
-        min-width: 0;
-        min-height: 80px;
-        height: auto;
-        font-size: 8vw;
-        border-width: 8px;
-    }
 
-    /* REVIEW US */
-    .Review {
-        width: 80%;
-        min-width: 0;
-        min-height: 70px;
-        height: auto;
-        font-size: 7vw;
-        border-width: 8px;
-    }
 
-    /* FOLLOW US HERE */
-    .Header-2 {
-        font-size: 10vw;
-        margin-top: 8%;
-        margin-bottom: 3%;
-    }
 
-    /* SOCIAL MEDIA BUTTONS */
-    .Socials-buttons {
-        width: 100%;
-    }
 
-    .Facebook,
-    .Instagram,
-    .TikTok,
-    .X,
-    .Linked-in {
-        min-width: 0;
-        min-height: 80px;
-        width: 20%;
-        height: auto;
-        font-size: 15vw;
-    }
+
+
+
 
     /* BACKGROUND */
     .background {
