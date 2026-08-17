@@ -278,3 +278,8 @@ a {
 .body {
     margin: 0;
 }
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
