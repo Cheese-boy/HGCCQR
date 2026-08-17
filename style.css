@@ -1,7 +1,7 @@
 
     .Header-1 {
         font-size: 1500%;
-        margin-top: 18%;
+        margin-top: 5%;
         margin-bottom: 1%;
         Line-height: 0.9;
         text-align: center;
@@ -30,6 +30,14 @@
     .shop-now i {
         color: white;
         margin-right: 5%;
+    }
+
+    .shop-now:hover {
+        opacity: 0.9;
+    }
+
+    .shop-now:active {
+        opacity: 0.85;
     }
 
      .Review {
@@ -73,6 +81,14 @@
         margin-right: 5%;
     }
 
+    .Review:hover {
+        opacity: 0.9;
+    }
+
+    .Review:active {
+        opacity: 0.85;
+    }
+
     .Header-2{
         font-size: 700%;
         text-align: center;
@@ -86,24 +102,22 @@
         align-items: center;
         min-height: 100px;
         min-width: 100px;
-        margin-left: 40px;
-        margin-right: 20px;
         width: 110%;
         height: 20%;
-        font-size: 300%;
-        background-color: black;
-        border-color: rgb(200, 0, 0);
-        border-style: solid;
-        border-width: 10px;
-        color: white;
-        font-family: "Stardos Stencil", system-ui;
-        font-weight: 700;
-        font-style: normal;
+        font-size: 1000%;
     }
 
     .Facebook i {
         color:#1877F2;
         margin-right: 5%;
+    }
+
+    .Facebook:hover {
+        opacity: 0.8;
+    }
+
+    .Facebook:active {
+        opacity: 0.75;
     }
     
     .Instagram {
@@ -112,19 +126,9 @@
         align-items: center;
         min-height: 100px;
         min-width: 100px;
-        margin-left: 10px;
-        margin-right: 10px;
         width: 110%;
         height: 20%;
-        font-size: 300%;
-        background-color: black;
-        border-color: rgb(200, 0, 0);
-        border-style: solid;
-        border-width: 10px;
-        color: white;
-        font-family: "Stardos Stencil", system-ui;
-        font-weight: 700;
-        font-style: normal;
+        font-size: 1000%;
     }
 
     .instagram i {
@@ -144,58 +148,63 @@
     margin-right: 5%;
     }
 
+    .Instagram:hover {
+        opacity: 0.8;
+    }
+
+    .Instagram:active {
+        opacity: 0.75;
+    }
+
     .TikTok {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100px;
         min-width: 100px;
-        margin-right: 20px;
-        margin-left: 20px;
         width: 90%;
         height: 20%;
-        font-size: 300%;
-        background-color: black;
-        border-color: rgb(200, 0, 0);
-        border-style: solid;
-        border-width: 10px;
-        color: white;
-        font-family: "Stardos Stencil", system-ui;
-        font-weight: 700;
-        font-style: normal;
+        font-size: 1000%;
     }
 
     .TikTok i {
-        color: white;
+        color: black;
         text-shadow:
         -3px -3px 0 #25F4EE,   
         3px 3px 0 #FE2C55; 
         margin-right: 5%;
     }
+
+    .TikTok:hover {
+        opacity: 0.9;
+    }
+
+    .TikTok:active {
+        opacity: 0.85;
+    }
+
     .X {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100px;
         min-width: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
         width: 90%;
         height: 20%;
-        font-size: 300%;
-        background-color: black;
-        border-color: rgb(200, 0, 0);
-        border-style: solid;
-        border-width: 10px;
-        color: white;
-        font-family: "Stardos Stencil", system-ui;
-        font-weight: 700;
-        font-style: normal;
+        font-size: 1000%;
     }
 
     .X i {
-        color: white;
+        color: black;
         margin-right: 5%;
+    }
+
+    .X:hover {
+        opacity: 0.9;
+    }
+
+    .X:active {
+        opacity: 0.85;
     }
 
     .Linked-in {
@@ -204,18 +213,9 @@
         align-items: center;
         min-height: 100px;
         min-width: 100px;
-        margin-left: 20px;
         width: 90%;
         height: 20%;
-        font-size: 300%;
-        background-color: black;
-        border-color: rgb(200, 0, 0);
-        border-style: solid;
-        border-width: 10px;
-        color: white;
-        font-family: "Stardos Stencil", system-ui;
-        font-weight: 700;
-        font-style: normal;
+        font-size: 1000%;
         
     }
 
@@ -223,6 +223,14 @@
     color:#0A66C2;
     margin-right: 5%;
 }
+
+.Linked-in:hover {
+     opacity: 0.8;
+}
+
+.Linked-in:active {
+    opacity: 0.75;
+ }
 
     .Socials-Shops {
         display: flex;
@@ -239,7 +247,8 @@
     }
 
     .background {
-        background-color: #e6d8c6ee;
+        background-image: url(Background.jpg);
+        background-position: center;
     }
 
     .Header-1 {
