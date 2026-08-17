@@ -247,7 +247,7 @@
     }
 
     .background {
-        background-image: url(images/Background.jpg);
+        background-image: url("images/Background.jpg");
         background-position: center;
     }
 
