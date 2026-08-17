@@ -289,13 +289,13 @@ a {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 .Logo {
-    width: 50%;
-    margin-top: 25vw;
+    width: 40%;
     height: auto;
-    position: static;
+    max-height: 90%;
 }
 
 html, body {
