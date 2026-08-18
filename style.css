@@ -17,7 +17,6 @@
         height: auto;
         font-size: 8vw;
         border-width: 8px;
-        margin-top: 50vw;
         margin: 10px auto;
         border-color: rgb(200, 0, 0);
         border-style: solid;
@@ -52,7 +51,7 @@
         font-size: 7vw;
         border-width: 8px;
         margin: 10px auto;
-        color: white;
+        color: black;
         font-family: "Stardos Stencil", system-ui;
         font-weight: 700;
         font-style: normal;
@@ -289,6 +288,7 @@ a {
     align-items: Center;
     z-index: 1000;
     box-sizing: border-box;
+    margin-bottom: 50vw;
 }
 
 .Logo {
@@ -312,3 +312,4 @@ html, body {
         font-weight: 700;
         font-style: Bold;
 }
+
