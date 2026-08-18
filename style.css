@@ -17,6 +17,7 @@
         height: auto;
         font-size: 8vw;
         border-width: 8px;
+        margin-top: 47vw;
         margin: 10px auto;
         border-color: rgb(200, 0, 0);
         border-style: solid;
@@ -307,4 +308,7 @@ html, body {
     color: white;
     font-size: 7vw;
     text-align: center;
+    font-family: "Stardos Stencil", system-ui;
+        font-weight: 700;
+        font-style: Bold;
 }
