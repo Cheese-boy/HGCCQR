@@ -42,52 +42,6 @@
         opacity: 0.85;
     }
 
-     .Review {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        min-width: 0;
-        min-height: 70px;
-        height: auto;
-        font-size: 10vw;
-        border-width: 8px;
-        margin: 10px auto;
-        color: black;
-        font-family: "Stardos Stencil", system-ui;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .Review i {
-         background: conic-gradient(
-        from -45deg,
-        #EA4335 0deg,
-        #EA4335 60deg,
-        #FBBC05 120deg,
-        #34A853 220deg,
-        #4285F4 300deg,
-        #EA4335 360deg
-    );
-
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-
-    display: inline-block;
-    line-height: 1;
-        margin-right: 5%;
-    }
-
-    .Review:hover {
-        opacity: 0.9;
-    }
-
-    .Review:active {
-        opacity: 0.85;
-    }
-
     .Header-2{
         font-size: 14vw;
         margin-top: 50vw;
